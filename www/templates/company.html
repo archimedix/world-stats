@@ -1,0 +1,12 @@
+<ion-view view-title="Biggest company 2015">
+  <ion-content>
+    <h1>Biggest Company in 2015</h1>
+      
+      <ul class="list">
+    <li class="item" collection-repeat="company in list">
+      {{company.revenue}} {{company.industry/_text}}
+    </li>
+</ul>
+      
+  </ion-content>
+</ion-view>

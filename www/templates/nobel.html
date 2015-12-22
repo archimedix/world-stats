@@ -1,0 +1,12 @@
+<ion-view view-title="Nobel peace prize">
+  <ion-content>
+    <h1>Nobel</h1>
+      
+      <ul class="list">
+    <li class="item" collection-repeat="person in list">
+      {{person.year}}: {{person.name/_title}}
+    </li>
+</ul>
+      
+  </ion-content>
+</ion-view>
